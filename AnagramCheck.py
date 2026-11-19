@@ -1,0 +1,3 @@
+a = input().replace(" ", "").lower()
+b = input().replace(" ", "").lower()
+print("Anagram" if sorted(a) == sorted(b) else "Not Anagram")
